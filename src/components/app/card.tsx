@@ -6,6 +6,10 @@ type CardProps = {
     title: string;
     description: string;
     technologies: string[];
+    links: {
+      github: string;
+      live: string;
+    }
 }
 
 const Card = ({ item }: {item: CardProps}) => {
@@ -16,15 +20,15 @@ const Card = ({ item }: {item: CardProps}) => {
           <div className="text-lg font-bold">{item.title}</div>
           <div className="text-muted-foreground">{item.description}</div>
         </div>
-        <Link to={'#'} className="">
+        <Link to={item.links.live} className="">
             <img src={item.picture_path} alt="" className="scale-[0.98] hover:scale-[1] transition-all" />
         </Link>
         <div className="flex items-center gap-4">
-            <Link to={'#'} className='flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors'>
+            <Link to={item.links.github} className='flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors'>
                 <GitHubLogoIcon />
                 <p>Github</p>
             </Link>
-            <Link to={'#'} className='flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors'>
+            <Link to={item.links.live} className='flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors'>
                 <Link2Icon />
                 <p>Live</p>
             </Link>
