@@ -10,7 +10,7 @@ function App() {
   return (
     <BgGrid>
       <div className="w-full flex justify-center px-4">
-        <div className="font-inter w-full max-w-[1440px] border relative">
+        <div className="font-inter w-full max-w-[1400px] border relative">
           <Navbar />
           <Home />
           <CaseStudies />
