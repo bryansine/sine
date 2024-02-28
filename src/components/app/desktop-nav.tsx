@@ -1,4 +1,4 @@
-import { navlinks, scrollToSection } from "@/lib/utils";
+import { handleOpenPdf, navlinks, scrollToSection } from "@/lib/utils";
 import { Button } from "../ui/button";
 
 const DesktopNav: React.FC = () => {
@@ -9,7 +9,7 @@ const DesktopNav: React.FC = () => {
                 <li className='cursor-pointer text-muted-foreground transition-colors hover:text-accent-foreground' key={index} onClick={() => scrollToSection(link)}>{link}</li>
             ))}
         </ul>
-        <Button variant={'outline'} className="">View CV</Button>
+        <Button variant={'outline'} onClick={handleOpenPdf} className="">View CV</Button>
     </div>
   )
 }

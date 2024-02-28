@@ -20,3 +20,7 @@ export const scrollToSection = (sectionId: string) => {
 export const handleEmailClick = () => {
   window.location.href = 'mailto:developedbyrobbie@gmail.com';
 };
+
+export const handleOpenPdf = () => {
+    window.open('robert_muchiri_CV.pdf', '_blank');
+};
