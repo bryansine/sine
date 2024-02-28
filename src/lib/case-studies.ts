@@ -22,7 +22,7 @@ export default [
     {
       "picture_path": "the-ladder-up.png",
       "title": "The Ladder Up Blog App",
-      "description": "A blog platform with a sleekdynamic user interface.",
+      "description": "A blog platform with a sleek dynamic user interface.",
       "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
       "links": {
         "github": "https://github.com/whoisrobb/the-ladder-up",
