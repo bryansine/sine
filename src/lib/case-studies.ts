@@ -20,13 +20,33 @@ export default [
       }
     },
     {
-      "picture_path": "the-ladder-up.png",
-      "title": "The Ladder Up Blog App",
-      "description": "A blog platform with a sleek dynamic user interface.",
+      "picture_path": "portfolio-1.jpg",
+      "title": "ArcUrban real-estate & booking app. #STILL-IN-DEVELOPEMENT",
+      "description": "A real estate app allowing users to sell, book or buy properties and hotels.",
       "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
       "links": {
-        "github": "https://github.com/whoisrobb/the-ladder-up",
-        "live": "https://the-ladder-up.vercel.app",
+        "github": "#",
+        "live": "#",
       }
     },
+    {
+      "picture_path": "portfolio-3.jpg",
+      "title": "AI sous chef. #STILL-IN-DEVELOPEMENT.",
+      "description": "A recipe/cooking app leveraging AI for various tasks.",
+      "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
+      "links": {
+        "github": "#",
+        "live": "#",
+      }
+    },
+    // {
+    //   "picture_path": "the-ladder-up.png",
+    //   "title": "The Ladder Up Blog App",
+    //   "description": "A blog platform with a sleek dynamic user interface.",
+    //   "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
+    //   "links": {
+    //     "github": "https://github.com/whoisrobb/the-ladder-up",
+    //     "live": "https://the-ladder-up.vercel.app",
+    //   }
+    // },
 ];

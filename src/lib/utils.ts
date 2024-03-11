@@ -5,15 +5,15 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export const navlinks = ['case studies', 'contact']
+export const navlinks = ['case studies', 'about', 'contact']
 
 export const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
-    } else {
-        console.warn(`Section "${sectionId}" not found.`);
-    }
+  const section = document.getElementById(sectionId);
+  if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+  } else {
+      console.warn(`Section "${sectionId}" not found.`);
+  }
 };
 
 /* HANDLING EMAIL */
@@ -22,5 +22,20 @@ export const handleEmailClick = () => {
 };
 
 export const handleOpenPdf = () => {
-    window.open('robert_muchiri_CV.pdf', '_blank');
+  window.open('robert_muchiri_CV.pdf', '_blank');
 };
+
+export const tech = [
+  {
+    title: 'languages',
+    items: ['Javascript/Typescript', 'Python', 'C', 'SQL']
+  },
+  {
+    title: 'frameworks',
+    items: ['React Js', 'Node Js', 'Next Js', 'Express Js']
+  },
+  {
+    title: 'storage',
+    items: ['PostgreSQL', 'MongoDB', 'Redis']
+  },
+]
