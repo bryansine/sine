@@ -1,15 +1,13 @@
 import ContentLayout from "@/components/layout/content-layout";
-// import { Button } from "@/components/ui/button";
-// import { scrollToSection } from "@/lib/utils";
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { fadeInTransformVariant, fadeInVariant } from "@/lib/animationVariants";
 
 const intro = ['Robert Muchiri', 'I build and design software']
 const description = [
-    'I’m a multi-disciplinary designer and developer',
-    'who builds software with an aesthetic touch;',
-    'software that is both beautiful and functional.'
+    "I’m a multi-disciplinary developer and designer",
+    "who builds software with an aesthetic touch;",
+    "software that is both functional and beautiful."
 ]
 
 const Home: React.FC = () => {
@@ -48,21 +46,6 @@ const Home: React.FC = () => {
                     </motion.p>))}
             </div>
         </ContentLayout>
-        {/* <div className="flex flex-col gap-6"> */}
-            {/* <p className="text-primary lg:text-xl">Hi there, I'm</p>
-            <div className="bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-transparent lg:text-7xl text-4xl font-bold">
-                <h1 className=''>Robert Muchiri<br />I build and design software</h1>
-            </div>
-            <div className='text-muted-foreground lg:text-xl'>
-                <p className=''>I’m a multi-disciplinary designer and developer who builds</p>
-                <p className=''>software with an aesthetic touch; software that's both beautiful</p>
-                <p className=''>and functional.</p>
-            </div> */}
-            {/* <div className="flex items-center gap-2">
-                <Button onClick={() => scrollToSection('case studies')}>Case Studies</Button>
-                <Button variant={'ghost'} onClick={() => scrollToSection('contact')}>Let's talk</Button>
-            </div> */}
-        {/* </div> */}
     </section>
   )
 }

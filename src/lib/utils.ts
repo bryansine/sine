@@ -32,10 +32,10 @@ export const tech = [
   },
   {
     title: 'frameworks',
-    items: ['React Js', 'Node Js', 'Next Js', 'Express Js']
+    items: ['React', 'Node Js', 'Next Js', 'Express']
   },
   {
-    title: 'storage',
+    title: 'database',
     items: ['PostgreSQL', 'MongoDB', 'Redis']
   },
 ]
