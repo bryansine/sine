@@ -24,10 +24,10 @@ const About = () => {
             title="about"
             border={true}
         >
-            <div className="max-w-3xl space-y-4 mb-36">
+            <div className="max-w-3xl space-y-4 lg:mb-36">
                 <h3 className="text-lg font-bold">
                     {intro.map((text, index) => (
-                        <motion.h1
+                    <motion.h1
                         variants={fadeInTransformVariant}
                         initial='initial'
                         whileInView='animate'
@@ -55,9 +55,9 @@ const About = () => {
                     title="technologies"
                     border={true}
                 >
-                    <div className="space-y-4">
+                    <div className="lg:space-y-4 md:space-y-4 lg:block md:block gap-2 flex">
                         {tech.map((item, index) => (
-                            <div className="grid grid-cols-5" key={index}>
+                            <div className="lg:grid md:grid grid-cols-5" key={index}>
                                 <motion.h3
                                     className="capitalize"
                                     variants={fadeInTransformVariant}
@@ -69,7 +69,7 @@ const About = () => {
                                     {item.title}
                                 </motion.h3>
                                 {item.items.map((tech, index) => (
-                                    <motion.p
+                                    <motion.div
                                         className="text-muted-foreground"
                                         key={index}
                                         variants={fadeInVariant}
@@ -79,8 +79,8 @@ const About = () => {
                                         viewport={{ once: true }}
                                     >
                                         <p className="lg:hidden">{tech.includes('/') ? `${tech.split('/')[1]}` : `${tech}`}</p>
-                                        <p className="hidden md:block sm:block">{tech}</p>
-                                    </motion.p>
+                                        <p className="hidden lg:block">{tech}</p>
+                                    </motion.div>
                                 ))}
                             </div>
                         ))}

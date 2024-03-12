@@ -14,15 +14,14 @@ const Home: React.FC = () => {
     const homeRef = useRef<HTMLDivElement>(null);
   return (
     <section ref={homeRef} id="home" className=" flex flex-col">
-        <div className="min-h-[calc(100vh/3)]">
+        <div className="min-h-[calc(100vh/3)]"></div>
             
-        </div>
         <ContentLayout
             title="software engineer"
             border={false}
         >
             {intro.map((text, index) => (
-                <motion.h1
+            <motion.h1
                 variants={fadeInTransformVariant}
                 initial='initial'
                 whileInView='animate'
