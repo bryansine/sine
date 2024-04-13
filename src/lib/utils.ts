@@ -28,11 +28,11 @@ export const handleOpenPdf = () => {
 export const tech = [
   {
     title: 'languages',
-    items: ['Javascript/Typescript', 'Python', 'C', 'SQL']
+    items: ['Javascript/Typescript', 'Python', 'Java', 'C']
   },
   {
     title: 'frameworks',
-    items: ['React', 'Node Js', 'Next Js', 'Express']
+    items: ['React', 'Node Js', 'Next Js', 'Spring Boot']
   },
   {
     title: 'database',
