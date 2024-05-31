@@ -22,7 +22,7 @@ export const handleEmailClick = () => {
 };
 
 export const handleOpenPdf = () => {
-  window.open('robert_muchiri_CV.pdf', '_blank');
+  window.open('robert-muchiri-2024.pdf', '_blank');
 };
 
 export const tech = [

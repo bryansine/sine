@@ -13,10 +13,10 @@ export default [
       "picture_path": "mismatchd.png",
       "title": "Mismatchd Ecommerce App",
       "description": "An online store app with an intergrated CMS dashboard.",
-      "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
+      "technologies": ["Next.Js", "Typescript", "Express.js", "PostgreSQL"],
       "links": {
-        "github": "https://github.com/whoisrobb/Mismatchd-react",
-        "live": "https://mismatchd.vercel.app",
+        "github": "https://github.com/whoisrobb/Mismatchd-Gallery",
+        "live": "https://mismatchd-gallery.vercel.app",
       }
     },
     {
