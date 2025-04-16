@@ -20,16 +20,17 @@ export default [
       }
     },
     {
-      "picture_path": "waera-task-management.png",
-      "title": "Waera Task Management App",
-      "description": "A Kanban board-style task manager with a digital canvas for colourful sticky notes. Intuitive drag-and-drop, real-time updates, and collaboration.",
-      "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
+      "picture_path": "mismatchd.png",
+      "title": "Mismatchd Ecommerce App",
+      "description": "An online store app with an intergrated CMS dashboard.",
+      "technologies": ["Next.Js", "Typescript", "Express.js", "PostgreSQL"],
       "links": {
         "github": "#",
-        "live": "https://waera-task-management.vercel.app",
+        "live": "https://mismatchd-gallery.vercel.app",
       }
     },
-    
+
+
     // {
     //   "picture_path": "portfolio-3.jpg",
     //   "title": "AI sous chef. #STILL-IN-DEVELOPEMENT.",
