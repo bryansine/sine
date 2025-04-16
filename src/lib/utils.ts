@@ -18,24 +18,24 @@ export const scrollToSection = (sectionId: string) => {
 
 /* HANDLING EMAIL */
 export const handleEmailClick = () => {
-  window.location.href = 'mailto:developedbyrobbie@gmail.com';
+  window.location.href = 'mailto:bryansine1738@gmail.com';
 };
 
 export const handleOpenPdf = () => {
-  window.open('robert-muchiri-2024.pdf', '_blank');
+  window.open('bryan-sine-2024.pdf', '_blank');
 };
 
 export const tech = [
   {
     title: 'languages',
-    items: ['Javascript/Typescript', 'Python', 'Java', 'C']
+    items: ['python', 'Javascript', 'C']
   },
   {
     title: 'frameworks',
-    items: ['React', 'Node Js', 'Next Js', 'Spring Boot']
+    items: ['Django', 'React', 'Flask', 'FastAPI']
   },
   {
     title: 'database',
-    items: ['PostgreSQL', 'MongoDB', 'Redis']
+    items: ['PostgreSQL','Redis', 'mySQL', 'MongoDB', ]
   },
 ]

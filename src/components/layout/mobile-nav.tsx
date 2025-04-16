@@ -27,7 +27,7 @@ const MobileNav: React.FC = () => {
                         className="cursor-pointer text-2xl text-accent-foreground transition-colors font-bold"
                         onClick={() => {scrollToSection('home'); setIsOpen(false)}}
                     >
-                        muchiri
+                        Sine
                     </p>
                 </SheetTitle>
                 <SheetDescription className="flex flex-col text-left gap-4">

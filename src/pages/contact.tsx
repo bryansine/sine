@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
   
     const handleCopy = async () => {
       try {
-        await navigator.clipboard.writeText('developedbyrobbie@gmail.com');
+        await navigator.clipboard.writeText('bryansine1738@gmail.com');
         setIsCopied(true);
         setTimeout(() => setIsCopied(false), 2000);
       } catch (err) {
@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
               <div
                   onClick={handleEmailClick}
                   className="lg:text-3xl text-lg font-bold cursor-pointer text-muted-foreground hover:text-accent-foreground transition-colors underline">
-                  developedbyrobbie@gmail.com
+                  bryansine1738@gmail.com
               </div>
               <Button variant={'outline'} size={'icon'} onClick={handleCopy}>
                   {isCopied ? <CheckIcon />: <ClipboardCopyIcon />}

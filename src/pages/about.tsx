@@ -5,17 +5,15 @@ import { fadeInTransformVariant, fadeInVariant } from "@/lib/animationVariants";
 import { tech } from "@/lib/utils";
 
 const intro = [
-    "I am driven by the thrill of engineering performant yet visually captivating",
-    "software solutions that seemlessly deliver an organization's product",
-    "to the intended audience free from bumps and hassle."
-]
+    "I'm driven by the challenge of engineering software that solves complex problems with both efficiency and visual appeal.",
+    "I strive to create solutions that not only function flawlessly but also leave a positive and lasting impression on the user."
+];
+
 
 const description = [
-    'Throughout my journey within the industry I have acquired a wide range of skills and mastery of tools',
-    'that I leverage in my craft. I take great pride in my work and journey and hence great confidence',
-    'not only in my current level of performance but also the levels I will be ascending to further.'
-]
-
+    "My journey in the software industry has equipped me with a diverse skill set and a strong command of various tools, which I apply with precision to my work.",
+    "I'm proud of my progress and the expertise I've gained, and I'm confident in my ability to continue growing and reaching new heights in my career."
+];
 const About = () => {
     const aboutRef = useRef<HTMLDivElement>(null);
   return (

@@ -3,12 +3,12 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { fadeInTransformVariant, fadeInVariant } from "@/lib/animationVariants";
 
-const intro = ['Robert Muchiri', 'I build and design software']
+
+const intro = ['Hello, I\'m Bryan Sine', 'a software engineer driven to transform complex challenges into impactful and intuitive solutions.'];
 const description = [
-    "I’m a multi-disciplinary developer and designer",
-    "who builds software with an aesthetic touch;",
-    "software that is both functional and beautiful."
-]
+    "I'm passionate about leveraging technology",
+    "to build a better future."
+];
 
 const Home: React.FC = () => {
     const homeRef = useRef<HTMLDivElement>(null);
