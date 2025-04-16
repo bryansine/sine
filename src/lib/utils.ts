@@ -22,7 +22,7 @@ export const handleEmailClick = () => {
 };
 
 export const handleOpenPdf = () => {
-  window.open('bryan-sine-2024.pdf', '_blank');
+  window.open('Resume.docx', '_blank');
 };
 
 export const tech = [
