@@ -25,10 +25,11 @@ export default [
       "description": "A Kanban board-style task manager with a digital canvas for colourful sticky notes. Intuitive drag-and-drop, real-time updates, and collaboration.",
       "technologies": ["React", "Node.js", "Typescript", "Express.js", "PostgreSQL"],
       "links": {
-        "github": "https://github.com/whoisrobb/Waera-Task-Management",
+        "github": "#",
         "live": "https://waera-task-management.vercel.app",
       }
     },
+    
     // {
     //   "picture_path": "portfolio-3.jpg",
     //   "title": "AI sous chef. #STILL-IN-DEVELOPEMENT.",
