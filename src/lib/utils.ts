@@ -22,7 +22,7 @@ export const handleEmailClick = () => {
 };
 
 export const handleOpenPdf = () => {
-  window.open('Resume.docx', '_blank');
+  window.open('Resume.pdf', '_blank');
 };
 
 export const tech = [
